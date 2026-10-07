@@ -23,42 +23,24 @@ export class ResumeController {
         }
     }
     handlePrint() {
-        // ถ้า html2pdf โหลดมาแล้ว (มีอินเทอร์เน็ต) → สร้าง PDF ดาวน์โหลดโดยตรง (ทำงานได้ทั้งมือถือและคอม)
-        // ถ้าไม่มี → fallback ไปใช้ window.print() แบบเดิม
-        if (window.html2pdf) {
-            this.generatePDF();
-        } else {
-            window.print();
+        const ua = navigator.userAgent || "";
+        // ตรวจจับเบราว์เซอร์ในแอป Facebook / Messenger / Instagram / LINE
+        // ซึ่งมักจะบล็อก window.print() และบล็อกการดาวน์โหลดไฟล์
+        const isInAppBrowser = /FBAN|FBAV|Instagram|Line\//i.test(ua);
+
+        if (isInAppBrowser) {
+            alert(
+                "เบราว์เซอร์ในแอป Facebook/Messenger ไม่รองรับการปริ้นหรือดาวน์โหลดไฟล์\n\n" +
+                "วิธีดาวน์โหลด PDF:\n" +
+                "1. แตะเมนู (⋯) ที่มุมขวาบน\n" +
+                "2. เลือก \"เปิดใน Chrome\" หรือ \"เปิดใน Safari\"\n" +
+                "3. กดปุ่มดาวน์โหลดอีกครั้ง"
+            );
+            return;
         }
-    }
-    generatePDF() {
-        const lang = this.currentLang;
-        const filename = lang === 'en'
-            ? 'Resume-Paranchai-Yaemsod-EN.pdf'
-            : 'Resume-Paranchai-Yaemsod-TH.pdf';
-        const element = document.querySelector('.container');
-        const htmlEl = document.documentElement;
-        // เปิดโหมด print-mode เพื่อให้หน้าตาเหมือนตอนปริ้น A4 (2 คอลัมน์, sidebar ยาวเต็ม)
-        htmlEl.classList.add('print-mode');
-        const opt = {
-            margin: 0,
-            filename: filename,
-            image: { type: 'jpeg', quality: 0.98 },
-            html2canvas: {
-                scale: 2,
-                useCORS: true,
-                backgroundColor: '#ffffff',
-                windowWidth: 794 // ความกว้าง A4 ที่ 96dpi → บังคับให้ใช้ layout แบบ desktop (2 คอลัมน์)
-            },
-            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-            pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
-        };
-        const cleanup = () => htmlEl.classList.remove('print-mode');
-        html2pdf().set(opt).from(element).save()
-            .then(cleanup)
-            .catch(() => {
-                cleanup();
-                window.print(); // ถ้าสร้าง PDF ล้มเหลว fallback ไปปริ้นแบบปกติ
-            });
+
+        // ทุกเบราว์เซอร์ปกติ (PC, Chrome, Safari, Android Chrome)
+        // ใช้ window.print() → เปิด dialog ให้เลือกปริ้นหรือ Save as PDF คุณภาพสูง
+        window.print();
     }
 }
