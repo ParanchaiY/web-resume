@@ -2,7 +2,7 @@ export class ResumeController {
     constructor(model, view) {
         this.model = model;
         this.view = view;
-        this.currentLang = "th"; // ภาษาเริ่มต้น: ไทย
+        this.currentLang = localStorage.getItem('preferredLang') || "th";
     }
 
     init() {
@@ -20,6 +20,7 @@ export class ResumeController {
     handleLanguageChange(lang) {
         if (lang !== this.currentLang) {
             this.currentLang = lang;
+            localStorage.setItem('preferredLang', lang);
             this.render();
         }
     }
