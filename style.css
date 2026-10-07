@@ -373,8 +373,8 @@ body {
     }
     .resume-wrapper {
         grid-template-columns: 240px 1fr !important;
-        min-height: auto !important;
-        align-items: start !important;
+        min-height: 296mm !important;
+        align-items: stretch !important;
         break-inside: auto !important;
         page-break-inside: auto !important;
     }
@@ -387,7 +387,7 @@ body {
         page-break-inside: auto !important;
     }
     .sidebar {
-        padding: 15px 14px 15% 14px !important;
+        padding: 30px 14px 20px 14px !important;
     }
     .sidebar-header {
         margin-bottom: 12px !important;
@@ -453,7 +453,7 @@ body {
         font-size: 9.5px !important;
     }
     .main-content {
-        padding: 16px 20px !important;
+        padding: 30px 20px 16px 20px !important;
     }
     .main-section {
         margin-bottom: 10px !important;
@@ -472,6 +472,7 @@ body {
     .summary-text {
         font-size: 11px !important;
         line-height: 1.5 !important;
+        /* text-align: left !important; */
     }
     .competencies-list {
         grid-template-columns: 1fr 1fr !important;
@@ -499,7 +500,7 @@ body {
         margin-bottom: 3px !important;
     }
     .job-details {
-        font-size: 10.5px !important;
+        font-size: 11px !important;
         padding-left: 14px !important;
         line-height: 1.45 !important;
     }
