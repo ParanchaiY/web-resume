@@ -472,7 +472,6 @@ body {
     .summary-text {
         font-size: 11px !important;
         line-height: 1.5 !important;
-        /* text-align: left !important; */
     }
     .competencies-list {
         grid-template-columns: 1fr 1fr !important;
@@ -500,7 +499,7 @@ body {
         margin-bottom: 3px !important;
     }
     .job-details {
-        font-size: 11px !important;
+        font-size: 10.5px !important;
         padding-left: 14px !important;
         line-height: 1.45 !important;
     }
@@ -523,3 +522,97 @@ body {
         break-inside: avoid !important;
     }
 }
+/* ===== PRINT-MODE (ใช้ตอนสร้าง PDF ด้วย html2pdf บนมือถือ/คอม) ===== */
+html.print-mode,
+html.print-mode body {
+    background: #ffffff !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 11px;
+    line-height: 1.4;
+}
+html.print-mode .container {
+    width: 794px !important;
+    max-width: 794px !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+}
+html.print-mode .action-bar,
+html.print-mode .page-footer,
+html.print-mode .lang-toggle {
+    display: none !important;
+}
+html.print-mode .resume-wrapper {
+    grid-template-columns: 240px 1fr !important;
+    min-height: 1123px !important;
+    align-items: stretch !important;
+}
+html.print-mode .sidebar {
+    background-color: #f1f5f9 !important;
+    padding: 30px 14px 20px 14px !important;
+}
+html.print-mode .sidebar-header {
+    margin-bottom: 12px !important;
+    padding-bottom: 10px !important;
+}
+html.print-mode .profile-img {
+    width: 70px !important;
+    height: 70px !important;
+    border-width: 2px !important;
+    box-shadow: none !important;
+    margin-bottom: 6px !important;
+}
+html.print-mode .full-name { font-size: 14px !important; }
+html.print-mode .job-title-sidebar { font-size: 9.5px !important; letter-spacing: 0.5px !important; }
+html.print-mode .sidebar-section { margin-bottom: 10px !important; }
+html.print-mode .sidebar-h2 {
+    font-size: 10.5px !important;
+    padding-bottom: 3px !important;
+    margin-bottom: 6px !important;
+    border-bottom-width: 1.5px !important;
+}
+html.print-mode .contact-item { font-size: 9.5px !important; gap: 5px !important; }
+html.print-mode .contact-icon { font-size: 10px !important; }
+html.print-mode .skills-group { margin-bottom: 6px !important; }
+html.print-mode .skills-group strong { font-size: 9px !important; margin-bottom: 3px !important; }
+html.print-mode .badge { font-size: 9px !important; padding: 1.5px 5px !important; }
+html.print-mode .edu-item,
+html.print-mode .edu-period,
+html.print-mode .lang-item,
+html.print-mode .lang-level,
+html.print-mode .military-text { font-size: 9.5px !important; }
+html.print-mode .main-content { padding: 30px 20px 16px 20px !important; }
+html.print-mode .main-section { margin-bottom: 10px !important; }
+html.print-mode .main-h2 {
+    font-size: 12px !important;
+    margin-bottom: 6px !important;
+    padding-left: 8px !important;
+    border-left-width: 3px !important;
+}
+html.print-mode .summary-text { font-size: 11px !important; line-height: 1.5 !important; }
+html.print-mode .competencies-list {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 3px 14px !important;
+}
+html.print-mode .competency-item {
+    font-size: 11px !important;
+    gap: 5px !important;
+    line-height: 1.35 !important;
+}
+html.print-mode .timeline-item {
+    margin-bottom: 8px !important;
+    padding-bottom: 6px !important;
+}
+html.print-mode .job-title { font-size: 11.5px !important; }
+html.print-mode .job-period { font-size: 9.5px !important; }
+html.print-mode .job-company { font-size: 10.5px !important; margin-bottom: 3px !important; }
+html.print-mode .job-details,
+html.print-mode .dev-list {
+    font-size: 10.5px !important;
+    padding-left: 14px !important;
+    line-height: 1.45 !important;
+}
+html.print-mode .job-details li,
+html.print-mode .dev-list li { margin-bottom: 1.5px !important; }
