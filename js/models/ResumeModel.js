@@ -21,7 +21,7 @@ export class ResumeModel {
                 skills: [
                     { category: "Hardware & Helpdesk (Basic / Self-Study)", items: "PC/Laptop Assembly, Basic Diagnostics, Peripheral Setup, User Support, Helpdesk Troubleshooting" },
                     { category: "Operating Systems (Basic / Self-Study)", items: "Windows 10/11, Windows Server (Basic), Linux Command Line, System Maintenance" },
-                    { category: "Networking (Basic / Self-Study)", items: "TCP/IP, LAN/Wi-Fi Configuration, LAN & Wi-Fi Configuration, Network Troubleshooting, IP Config" },
+                    { category: "Networking (Basic / Self-Study)", items: "TCP/IP, LAN/Wi-Fi Configuration, Router/Switch Setup, Network Troubleshooting, IP Config" },
                     { category: "Software & Web Tech (Basic)", items: "HTML5, PHP, CSS3, JavaScript, SQL, Git/GitHub, VS Code" },
                     { category: "Office & Graphic Tools", items: "Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Adobe Photoshop, Image Editing" },
                     { category: "Tools & Utilities (Basic / Self-Study)", items: "Remote Desktop (AnyDesk/TeamViewer), Active Directory (Basic), CMD/PowerShell" }
@@ -106,7 +106,7 @@ export class ResumeModel {
                 skills: [
                     { category: "Hardware & Helpdesk (Basic / Self-Study)", items: "PC/Laptop Assembly, Basic Diagnostics, Peripheral Setup, User Support, Helpdesk Troubleshooting" },
                     { category: "Operating Systems (Basic / Self-Study)", items: "Windows 10/11, Windows Server (Basic), Linux Command Line, System Maintenance" },
-                    { category: "Networking (Basic / Self-Study)", items: "TCP/IP, LAN/Wi-Fi Configuration, LAN & Wi-Fi Configuration, Network Troubleshooting, IP Config" },
+                    { category: "Networking (Basic / Self-Study)", items: "TCP/IP, LAN/Wi-Fi Configuration, Router/Switch Setup, Network Troubleshooting, IP Config" },
                     { category: "Software & Web Tech (Basic)", items: "HTML5, PHP, CSS3, JavaScript, SQL, Git/GitHub, VS Code" },
                     { category: "Office & Graphic Tools", items: "Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Adobe Photoshop, Image Editing" },
                     { category: "Tools & Utilities (Basic / Self-Study)", items: "Remote Desktop (AnyDesk/TeamViewer), Active Directory (Basic), CMD/PowerShell" }
