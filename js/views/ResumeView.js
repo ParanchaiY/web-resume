@@ -1,33 +1,36 @@
 export class ResumeView {
-    constructor() {
-        this.appRoot = document.getElementById("app-root");
-    }
+  constructor() {
+    this.appRoot = document.getElementById("app-root");
+  }
 
-    render(data) {
-        const labels = data.labels;
-        const lang = data.currentLang;
+  render(data) {
+    const labels = data.labels;
+    const lang = data.currentLang;
 
-        const skillsHTML = data.skills
-            .map((s) => {
-                const itemsList = s.items
-                    .split(", ")
-                    .map((item) => `<span class="badge">${item}</span>`)
-                    .join("");
-                return `
+    const skillsHTML = data.skills
+      .map((s) => {
+        const itemsList = s.items
+          .split(", ")
+          .map((item) => `<span class="badge">${item}</span>`)
+          .join("");
+        return `
                 <div class="skills-group">
                     <strong>${s.category}</strong>
                     <div class="badge-container">${itemsList}</div>
                 </div>`;
-            })
-            .join("");
+      })
+      .join("");
 
-        const competenciesHTML = data.coreCompetencies
-            .map((c) => `<li class="competency-item"><span class="bullet">&#9656;</span> ${c}</li>`)
-            .join("");
+    const competenciesHTML = data.coreCompetencies
+      .map(
+        (c) =>
+          `<li class="competency-item"><span class="bullet">&#9656;</span> ${c}</li>`,
+      )
+      .join("");
 
-        const expHTML = data.experience
-            .map(
-                (e) => `
+    const expHTML = data.experience
+      .map(
+        (e) => `
             <div class="timeline-item">
                 <div class="job-header">
                     <h3 class="job-title">${e.role}</h3>
@@ -38,28 +41,32 @@ export class ResumeView {
                     ${e.details.map((d) => `<li>${d}</li>`).join("")}
                 </ul>
             </div>`,
-            )
-            .join("");
+      )
+      .join("");
 
-        const langHTML = data.languages
-            .map(
-                (l) => `
-            <div class="lang-item">
-                <span class="lang-name">${l.name}</span>
-                <span class="lang-level">${l.level}</span>
-            </div>`,
-            )
-            .join("");
+    // const langHTML = data.languages
+    //     .map(
+    //         (l) => `
+    //     <div class="lang-item">
+    //         <span class="lang-name">${l.name}</span>
+    //         <span class="lang-level">${l.level}</span>
+    //     </div>`,
+    //     )
+    //     .join("");
 
-        const devHTML = data.professionalDevelopment
-            .map((d) => `<li>${d}</li>`)
-            .join("");
+    // <div class="sidebar-section">
+    //   <h2 class="sidebar-h2">${labels.languages}</h2>${langHTML}
+    // </div>;
 
-        this.appRoot.innerHTML = `
+    const devHTML = data.professionalDevelopment
+      .map((d) => `<li>${d}</li>`)
+      .join("");
+
+    this.appRoot.innerHTML = `
             <div class="action-bar">
                 <div class="lang-toggle">
-                    <button class="lang-btn ${lang === 'th' ? 'active' : ''}" data-lang="th">TH</button>
-                    <button class="lang-btn ${lang === 'en' ? 'active' : ''}" data-lang="en">EN</button>
+                    <button class="lang-btn ${lang === "th" ? "active" : ""}" data-lang="th">TH</button>
+                    <button class="lang-btn ${lang === "en" ? "active" : ""}" data-lang="en">EN</button>
                 </div>
                 <button id="btnPrint" class="btn-print">&#128196; ${labels.printBtn}</button>
             </div>
@@ -97,11 +104,6 @@ export class ResumeView {
                     </div>
 
                     <div class="sidebar-section">
-                        <h2 class="sidebar-h2">${labels.languages}</h2>
-                        ${langHTML}
-                    </div>
-
-                    <div class="sidebar-section">
                         <h2 class="sidebar-h2">${labels.military}</h2>
                         <p class="military-text">&#9989; ${data.militaryStatus}</p>
                     </div>
@@ -134,21 +136,21 @@ export class ResumeView {
                 <p>${labels.footer}</p>
             </footer>
         `;
-    }
+  }
 
-    bindPrintEvent(handler) {
-        const btnPrint = document.getElementById("btnPrint");
-        if (btnPrint) {
-            btnPrint.addEventListener("click", handler);
-        }
+  bindPrintEvent(handler) {
+    const btnPrint = document.getElementById("btnPrint");
+    if (btnPrint) {
+      btnPrint.addEventListener("click", handler);
     }
+  }
 
-    bindLanguageEvent(handler) {
-        const langBtns = document.querySelectorAll(".lang-btn");
-        langBtns.forEach((btn) => {
-            btn.addEventListener("click", () => {
-                handler(btn.getAttribute("data-lang"));
-            });
-        });
-    }
+  bindLanguageEvent(handler) {
+    const langBtns = document.querySelectorAll(".lang-btn");
+    langBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        handler(btn.getAttribute("data-lang"));
+      });
+    });
+  }
 }

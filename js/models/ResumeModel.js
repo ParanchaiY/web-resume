@@ -9,32 +9,32 @@ export class ResumeModel {
                 phone: "095-148-6783",
                 location: "ระยอง, ไทย",
                 militaryStatus: "ผ่านการเกณฑ์ทหารแล้ว (สำเร็จการศึกษาวิชาทหาร รด. ปี 3)",
-                summary: "บัณฑิตวิศวกรรมซอฟต์แวร์ (วท.บ.) มหาวิทยาลัยบูรพา มีประสบการณ์กว่า 3 ปีในการดูแลระบบคอมพิวเตอร์ แก้ไขปัญหา Hardware / Software / Network และพัฒนา Web Application เชี่ยวชาญการ Troubleshooting, การติดตั้งบำรุงรักษาระบบ Windows, การสนับสนุนผู้ใช้งาน (Helpdesk), และการจัดทำเอกสาร พร้อมนำความรู้ด้านการเขียนโปรแกรมและการแก้ปัญหาเชิงวิศวกรรมมาประยุกต์ใช้ในการดูแลระบบ IT Support ขององค์กรได้อย่างมีประสิทธิภาพ",
+                summary: "บัณฑิตวิศวกรรมซอฟต์แวร์ (วท.บ.) มหาวิทยาลัยบูรพา มีพื้นฐานการเขียนโปรแกรมและพัฒนาเว็บไซต์ มีความถนัดด้านการจัดทำเอกสาร ออกแบบกราฟิก และช่วยเหลือแก้ไขปัญหาการใช้งานคอมพิวเตอร์เบื้องต้น ปัจจุบันกำลังศึกษาเพิ่มเติมด้านระบบปฏิบัติการ เครือข่าย และการสนับสนุนผู้ใช้งาน เพื่อเตรียมความพร้อมทำงานด้าน IT Support อย่างเต็มที่",
                 coreCompetencies: [
-                    "การสนับสนุนผู้ใช้งานและแก้ไขปัญหา (Helpdesk & User Support)",
-                    "การซ่อมบำรุงและติดตั้งฮาร์ดแวร์คอมพิวเตอร์ (Hardware Maintenance)",
-                    "การดูแลระบบปฏิบัติการ Windows และ Linux เบื้องต้น (OS Administration)",
-                    "การแก้ไขปัญหาเครือข่ายและการตั้งค่าเครือข่าย (Network Troubleshooting)",
-                    "การพัฒนาและบำรุงรักษา Web Application (Web Development)",
-                    "การจัดทำเอกสารและสื่อประชาสัมพันธ์ (Documentation & Graphic Design)"
+                    "ทำงานด้านเอกสารและสื่อนำเสนอ (Microsoft Office)",
+                    "ออกแบบและตัดต่อภาพกราฟิก (Adobe Photoshop)",
+                    "เขียนและดูแลหน้าเว็บเบื้องต้น (HTML, CSS, พื้นฐาน PHP/JS)",
+                    "ช่วยเหลือและสนับสนุนผู้ใช้งานเบื้องต้น",
+                    "มีพื้นฐานความรู้ด้านซอฟต์แวร์และการแก้ปัญหา",
+                    "กำลังศึกษาระบบปฏิบัติการ เครือข่าย และทักษะ IT Support เพิ่มเติม"
                 ],
                 skills: [
-                    { category: "Hardware & Helpdesk", items: "PC/Laptop Assembly, Hardware Diagnostics, Peripheral Setup, User Support, Helpdesk Troubleshooting" },
-                    { category: "Operating Systems", items: "Windows 10/11, Windows Server (Basic), Linux Command Line, System Maintenance" },
-                    { category: "Networking", items: "TCP/IP, LAN/Wi-Fi Configuration, Router/Switch Setup, Network Troubleshooting, IP Config" },
-                    { category: "Software & Web Tech", items: "HTML5, PHP, CSS3, JavaScript (ES6+ / OOP / MVC), SQL, Git/GitHub, VS Code" },
+                    { category: "Hardware & Helpdesk (Basic / Self-Study)", items: "PC/Laptop Assembly, Basic Diagnostics, Peripheral Setup, User Support, Helpdesk Troubleshooting" },
+                    { category: "Operating Systems (Basic / Self-Study)", items: "Windows 10/11, Windows Server (Basic), Linux Command Line, System Maintenance" },
+                    { category: "Networking (Basic / Self-Study)", items: "TCP/IP, LAN/Wi-Fi Configuration, LAN & Wi-Fi Configuration, Network Troubleshooting, IP Config" },
+                    { category: "Software & Web Tech (Basic)", items: "HTML5, PHP, CSS3, JavaScript, SQL, Git/GitHub, VS Code" },
                     { category: "Office & Graphic Tools", items: "Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Adobe Photoshop, Image Editing" },
-                    { category: "Tools & Utilities", items: "Remote Desktop (AnyDesk/TeamViewer), Active Directory (Basic), CMD/PowerShell" }
+                    { category: "Tools & Utilities (Basic / Self-Study)", items: "Remote Desktop (AnyDesk/TeamViewer), Active Directory (Basic), CMD/PowerShell" }
                 ],
                 experience: [
                     {
                         role: "IT Support & Digital Services (Freelance / Self-Employed)",
-                        company: "งานบริการอิสระด้านไอทีและสื่อดิจิทัล",
+                        company: "การพัฒนาทักษะและโปรเจกต์ส่วนตัวด้านไอทีและสื่อดิจิทัล",
                         period: "ก.ย. 2567 – ปัจจุบัน",
                         details: [
-                            "รับดูแล ซ่อมบำรุง และแก้ไขปัญหาคอมพิวเตอร์ Hardware/Software พื้นฐานให้กับลูกค้าทั่วไปและร้านค้าขนาดเล็ก",
+                            "ศึกษาหลักการดูแลรักษาและแก้ไขปัญหาคอมพิวเตอร์ พร้อมฝึกปฏิบัติบนเครื่องส่วนตัวและช่วยเหลือผู้ใกล้ชิด",
                             "จัดทำและตรวจทานเอกสารรายงาน สรุปข้อมูล โดยใช้ Microsoft Office (Word, Excel, PowerPoint)",
-                            "รับออกแบบ ตกแต่ง และตัดต่อภาพกราฟิกสำหรับสื่อออนไลน์ด้วย Adobe Photoshop ตามโจทย์ของผู้ใช้บริการ",
+                            "ฝึกออกแบบ ตกแต่ง และตัดต่อภาพกราฟิกสำหรับสื่อออนไลน์ด้วย Adobe Photoshop",
                             "พัฒนาและศึกษาเรียนรู้เทคโนโลยีใหม่ๆ ด้าน Web Application และระบบ IT Support เพื่ออัปเดตทักษะอย่างต่อเนื่อง"
                         ]
                     },
@@ -50,13 +50,13 @@ export class ResumeModel {
                         ]
                     },
                     {
-                        role: "IT Support & Freelance Computer Services",
-                        company: "รับงานอิสระและบริการด้านไอที (Freelance / Self-Employed)",
+                        role: "IT Skill Development & Self-Study",
+                        company: "การศึกษาและพัฒนาทักษะด้านไอทีด้วยตนเอง (Self-Learning)",
                         period: "ม.ค. 2565 – ธ.ค. 2566",
                         details: [
-                            "ให้บริการรับซ่อม แก้ไขปัญหา Hardware/Software และลงระบบปฏิบัติการ Windows สำหรับคอมพิวเตอร์ส่วนบุคคล",
-                            "จัดการงานเอกสาร ข้อมูล และสื่อนำเสนอด้วย Microsoft Office (Word, Excel, PowerPoint) ให้แก่ผู้ใช้บริการ",
-                            "รับตัดต่อ ตกแต่งภาพ และออกแบบสื่อกราฟิกพื้นฐานด้วย Adobe Photoshop ตามความต้องการของลูกค้า",
+                            "ฝึกฝนการซ่อม แก้ไขปัญหา Hardware/Software และติดตั้งระบบปฏิบัติการ Windows บนคอมพิวเตอร์ส่วนบุคคล",
+                            "จัดการงานเอกสาร ข้อมูล และสื่อนำเสนอด้วย Microsoft Office (Word, Excel, PowerPoint)",
+                            "ฝึกตัดต่อ ตกแต่งภาพ และออกแบบสื่อกราฟิกพื้นฐานด้วย Adobe Photoshop",
                             "ศึกษาค้นคว้าอัปเดตความรู้ด้าน Web Development, Network เบื้องต้น และเครื่องมือ IT Support ใหม่ๆ ด้วยตนเอง"
                         ]
                     },
@@ -94,32 +94,32 @@ export class ResumeModel {
                 phone: "095-148-6783",
                 location: "Rayong, Thailand",
                 militaryStatus: "Completed military service (ROTC, Year 3)",
-                summary: "Software Engineering graduate (B.Sc.) from Burapha University with over 3 years of experience in computer system maintenance, Hardware/Software/Network troubleshooting, and Web Application development. Skilled in Troubleshooting, Windows system installation and maintenance, Helpdesk/User Support, and documentation. Eager to apply programming knowledge and engineering problem-solving skills to effectively manage and support the organization's IT Support systems.",
+                summary: "Bachelor of Science in Software Engineering, Burapha University. Foundation in programming and website development. Skilled in documentation, graphic design, and basic computer troubleshooting for end users. Currently pursuing further studies in operating systems, computer networking, and user support to fully prepare for a career in IT Support.",
                 coreCompetencies: [
-                    "Helpdesk & User Support",
-                    "Hardware Maintenance & Assembly",
-                    "OS Administration (Windows / Linux Basic)",
-                    "Network Troubleshooting & Configuration",
-                    "Web Application Development & Maintenance",
-                    "Documentation & Graphic Design"
+                    "Documentation & Presentations (Microsoft Office)",
+                    "Graphic Design & Image Editing (Adobe Photoshop)",
+                    "Basic Web Page Development & Maintenance (HTML, CSS, Basic PHP/JS)",
+                    "Basic User Assistance & Support",
+                    "Fundamental Software Knowledge & Troubleshooting",
+                    "Currently building skills in OS, Networking & IT Support"
                 ],
                 skills: [
-                    { category: "Hardware & Helpdesk", items: "PC/Laptop Assembly, Hardware Diagnostics, Peripheral Setup, User Support, Helpdesk Troubleshooting" },
-                    { category: "Operating Systems", items: "Windows 10/11, Windows Server (Basic), Linux Command Line, System Maintenance" },
-                    { category: "Networking", items: "TCP/IP, LAN/Wi-Fi Configuration, Router/Switch Setup, Network Troubleshooting, IP Config" },
-                    { category: "Software & Web Tech", items: "HTML5, PHP, CSS3, JavaScript (ES6+ / OOP / MVC), SQL, Git/GitHub, VS Code" },
+                    { category: "Hardware & Helpdesk (Basic / Self-Study)", items: "PC/Laptop Assembly, Basic Diagnostics, Peripheral Setup, User Support, Helpdesk Troubleshooting" },
+                    { category: "Operating Systems (Basic / Self-Study)", items: "Windows 10/11, Windows Server (Basic), Linux Command Line, System Maintenance" },
+                    { category: "Networking (Basic / Self-Study)", items: "TCP/IP, LAN/Wi-Fi Configuration, LAN & Wi-Fi Configuration, Network Troubleshooting, IP Config" },
+                    { category: "Software & Web Tech (Basic)", items: "HTML5, PHP, CSS3, JavaScript, SQL, Git/GitHub, VS Code" },
                     { category: "Office & Graphic Tools", items: "Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Adobe Photoshop, Image Editing" },
-                    { category: "Tools & Utilities", items: "Remote Desktop (AnyDesk/TeamViewer), Active Directory (Basic), CMD/PowerShell" }
+                    { category: "Tools & Utilities (Basic / Self-Study)", items: "Remote Desktop (AnyDesk/TeamViewer), Active Directory (Basic), CMD/PowerShell" }
                 ],
                 experience: [
                     {
                         role: "IT Support & Digital Services (Freelance / Self-Employed)",
-                        company: "Freelance IT & Digital Media Services",
+                        company: "IT Skill Development & Personal Projects",
                         period: "Sep 2024 – Present",
                         details: [
-                            "Provided computer maintenance, repair, and Hardware/Software troubleshooting services for individual customers and small businesses",
+                            "Studied principles of computer maintenance and troubleshooting, practiced on personal devices, and provided assistance to acquaintances",
                             "Prepared and reviewed reports and data summaries using Microsoft Office (Word, Excel, PowerPoint)",
-                            "Designed and edited graphic content for online media using Adobe Photoshop according to client requirements",
+                            "Practiced designing and editing graphic content for online media using Adobe Photoshop",
                             "Continuously studied and developed new skills in Web Application and IT Support technologies"
                         ]
                     },
@@ -135,13 +135,13 @@ export class ResumeModel {
                         ]
                     },
                     {
-                        role: "IT Support & Freelance Computer Services",
-                        company: "Freelance / Self-Employed",
+                        role: "IT Skill Development & Self-Study",
+                        company: "Self-Learning & Personal Skill Development",
                         period: "Jan 2022 – Dec 2023",
                         details: [
-                            "Provided repair, Hardware/Software troubleshooting, and Windows OS installation services for personal computers",
-                            "Prepared documents, data, and presentations using Microsoft Office (Word, Excel, PowerPoint) for clients",
-                            "Edited and designed basic graphic content using Adobe Photoshop according to client requirements",
+                            "Practiced repair, Hardware/Software troubleshooting, and Windows OS installation on personal computers",
+                            "Prepared documents, data, and presentations using Microsoft Office (Word, Excel, PowerPoint)",
+                            "Practiced editing and designing basic graphic content using Adobe Photoshop",
                             "Self-studied and updated knowledge in Web Development, basic Networking, and new IT Support tools"
                         ]
                     },
@@ -183,7 +183,7 @@ export class ResumeModel {
                 languages: "ภาษา",
                 military: "สถานะทหาร",
                 summary: "สรุปคุณวุฒิ",
-                competencies: "ความสามารถหลัก",
+                competencies: "ความสามารถพื้นฐาน",
                 experience: "ประสบการณ์ทำงาน",
                 development: "การพัฒนาตนเองอย่างต่อเนื่อง",
                 printBtn: "ดาวน์โหลด / พิมพ์เป็น PDF",
@@ -196,7 +196,7 @@ export class ResumeModel {
                 languages: "Languages",
                 military: "Military Status",
                 summary: "Professional Summary",
-                competencies: "Core Competencies",
+                competencies: "Foundational Skills",
                 experience: "Work Experience",
                 development: "Professional Development",
                 printBtn: "Download / Print as PDF",
