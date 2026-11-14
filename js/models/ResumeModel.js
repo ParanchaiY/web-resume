@@ -4,12 +4,12 @@ export class ResumeModel {
         this._profile = {
             th: {
                 name: "ปรัญชัย แย้มสอาด",
-                title: "IT Support Specialist",
+                title: "IT Support | Technical Support | Helpdesk",
                 email: "py.paranchai@gmail.com",
-                phone: "095-148-6783",
+                phone: "+66 95-148-6783",
                 location: "ระยอง, ไทย",
                 militaryStatus: "ผ่านการเกณฑ์ทหารแล้ว (สำเร็จการศึกษาวิชาทหาร รด. ปี 3)",
-                summary: "บัณฑิตวิศวกรรมซอฟต์แวร์ (วท.บ.) มหาวิทยาลัยบูรพา มีพื้นฐานการเขียนโปรแกรมและพัฒนาเว็บไซต์ มีความถนัดด้านการจัดทำเอกสาร ออกแบบกราฟิก และช่วยเหลือแก้ไขปัญหาการใช้งานคอมพิวเตอร์เบื้องต้น ปัจจุบันกำลังศึกษาเพิ่มเติมด้านระบบปฏิบัติการ เครือข่าย และการสนับสนุนผู้ใช้งาน เพื่อเตรียมความพร้อมทำงานด้าน IT Support อย่างเต็มที่",
+                summary: "บัณฑิตสาขาวิศวกรรมซอฟต์แวร์จากมหาวิทยาลัยบูรพา มีพื้นฐานด้านระบบคอมพิวเตอร์ การพัฒนาเว็บไซต์ และการแก้ไขปัญหาทางเทคนิคเบื้องต้น มีประสบการณ์ในการจัดการข้อมูล จัดทำเอกสาร ดูแลอุปกรณ์คอมพิวเตอร์ และสนับสนุนการดำเนินงานภายในโครงการ ปัจจุบันมุ่งเน้นการพัฒนาความรู้ด้าน IT Support, Computer Hardware, Networking และ Operating Systems อย่างต่อเนื่อง พร้อมเรียนรู้เทคโนโลยีใหม่และพัฒนาทักษะเพื่อเติบโตในสายงาน IT Support และ Technical Support",
                 coreCompetencies: [
                     "ทำงานด้านเอกสารและสื่อนำเสนอ (Microsoft Office)",
                     "ออกแบบและตัดต่อภาพกราฟิก (Adobe Photoshop)",
@@ -19,23 +19,24 @@ export class ResumeModel {
                     "กำลังศึกษาระบบปฏิบัติการ เครือข่าย และทักษะ IT Support เพิ่มเติม"
                 ],
                 skills: [
-                    { category: "Hardware & Helpdesk (Basic / Self-Study)", items: "PC/Laptop Assembly, Basic Diagnostics, Peripheral Setup, User Support, Helpdesk Troubleshooting" },
-                    { category: "Operating Systems (Basic / Self-Study)", items: "Windows 10/11, Windows Server (Basic), Linux Command Line, System Maintenance" },
-                    { category: "Networking (Basic / Self-Study)", items: "TCP/IP, LAN/Wi-Fi Configuration, Router/Switch Setup, Network Troubleshooting, IP Config" },
-                    { category: "Software & Web Tech (Basic)", items: "HTML5, PHP, CSS3, JavaScript, SQL, Git/GitHub, VS Code" },
-                    { category: "Office & Graphic Tools", items: "Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Adobe Photoshop, Image Editing" },
-                    { category: "Tools & Utilities (Basic / Self-Study)", items: "Remote Desktop (AnyDesk/TeamViewer), Active Directory (Basic), CMD/PowerShell" }
+                    { category: "HARDWARE & HELPDESK (BASIC / SELF-STUDY)", items: "PC/Laptop Assembly, Basic Diagnostics, Peripheral Setup, User Support, Helpdesk Troubleshooting" },
+                    { category: "OPERATING SYSTEMS (BASIC / SELF-STUDY)", items: "Windows 10/11, Windows Installation, Windows Maintenance, Linux Command Line" },
+                    { category: "NETWORKING (BASIC / SELF-STUDY)", items: "TCP/IP, LAN/Wi-Fi Configuration, Network Troubleshooting, DNS, DHCP, IP Configuration" },
+                    { category: "IT SUPPORT TOOLS (BASIC / SELF-STUDY)", items: "Remote Desktop, AnyDesk, TeamViewer, Active Directory (Basic), Command Prompt, PowerShell (Basic)" },
+                    { category: "OFFICE PRODUCTIVITY", items: "Microsoft Word, Microsoft Excel, Microsoft PowerPoint" },
+                    { category: "ADDITIONAL TECHNICAL SKILLS", items: "Adobe Photoshop, HTML5, CSS3, PHP (Basic), JavaScript (Basic), SQL (Basic), Git/GitHub" }
                 ],
                 experience: [
                     {
-                        role: "IT Support & Digital Services (Freelance / Self-Employed)",
-                        company: "การพัฒนาทักษะและโปรเจกต์ส่วนตัวด้านไอทีและสื่อดิจิทัล",
+                        role: "IT Support & Digital Services (Self-Learning)",
+                        company: "การพัฒนาทักษะด้านไอที",
                         period: "ก.ย. 2567 – ปัจจุบัน",
                         details: [
-                            "ศึกษาหลักการดูแลรักษาและแก้ไขปัญหาคอมพิวเตอร์ พร้อมฝึกปฏิบัติบนเครื่องส่วนตัวและช่วยเหลือผู้ใกล้ชิด",
-                            "จัดทำและตรวจทานเอกสารรายงาน สรุปข้อมูล โดยใช้ Microsoft Office (Word, Excel, PowerPoint)",
-                            "ฝึกออกแบบ ตกแต่ง และตัดต่อภาพกราฟิกสำหรับสื่อออนไลน์ด้วย Adobe Photoshop",
-                            "พัฒนาและศึกษาเรียนรู้เทคโนโลยีใหม่ๆ ด้าน Web Application และระบบ IT Support เพื่ออัปเดตทักษะอย่างต่อเนื่อง"
+                            "ศึกษาและฝึกปฏิบัติด้าน Computer Hardware และ IT Support",
+                            "ฝึกติดตั้ง ดูแล และแก้ไขปัญหาการใช้งาน Windows 10/11",
+                            "ศึกษาการใช้งานเครื่องมือ Remote Support และ Active Directory เบื้องต้น",
+                            "พัฒนาความรู้ด้าน Linux Command Line และ Network Fundamentals",
+                            "ศึกษาความรู้ด้าน Cybersecurity และ Network Security เพื่อเพิ่มทักษะด้านเทคโนโลยีสารสนเทศ"
                         ]
                     },
                     {
@@ -45,19 +46,18 @@ export class ResumeModel {
                         details: [
                             "ปฏิบัติงานตามสัญญาจ้างโครงการ (Project-based Contract) พัฒนาและดูแลรักษา Web Application",
                             "วิเคราะห์และแก้ไขปัญหาทางเทคนิค (Troubleshooting & Debugging) ทั้งในส่วนระบบและหน้าเว็บให้ผู้ใช้งาน",
-                            "ทดสอบการทำงานของระบบ (System Testing) และประสานงานร่วมกับทีมพัฒนาเพื่อปรับปรุงประสิทธิภาพการใช้งาน",
-                            "ประยุกต์ใช้แนวคิด Clean Code และโครงสร้างระบบเพื่อรองรับการขยายตัวของแอปพลิเคชัน"
+                            "ทดสอบการทำงานของระบบ (System Testing) และประสานงานร่วมกับทีมพัฒนาเพื่อปรับปรุงประสิทธิภาพการใช้งาน"
                         ]
                     },
                     {
                         role: "IT Skill Development & Self-Study",
-                        company: "การศึกษาและพัฒนาทักษะด้านไอทีด้วยตนเอง (Self-Learning)",
+                        company: "การศึกษาและพัฒนาทักษะด้านเทคโนโลยีสารสนเทศด้วยตนเอง",
                         period: "ม.ค. 2565 – ธ.ค. 2566",
                         details: [
                             "ฝึกฝนการซ่อม แก้ไขปัญหา Hardware/Software และติดตั้งระบบปฏิบัติการ Windows บนคอมพิวเตอร์ส่วนบุคคล",
                             "จัดการงานเอกสาร ข้อมูล และสื่อนำเสนอด้วย Microsoft Office (Word, Excel, PowerPoint)",
                             "ฝึกตัดต่อ ตกแต่งภาพ และออกแบบสื่อกราฟิกพื้นฐานด้วย Adobe Photoshop",
-                            "ศึกษาค้นคว้าอัปเดตความรู้ด้าน Web Development, Network เบื้องต้น และเครื่องมือ IT Support ใหม่ๆ ด้วยตนเอง"
+                            "ศึกษาค้นคว้าและพัฒนาความรู้ด้าน Web Development, Networking พื้นฐาน และเครื่องมือ IT Support ด้วยตนเอง"
                         ]
                     },
                     {
@@ -65,9 +65,11 @@ export class ResumeModel {
                         company: "โครงการ 1 ตำบล 1 มหาวิทยาลัย (U2T) — กระทรวงการอุดมศึกษาฯ (MHESI)",
                         period: "มี.ค. 2564 – ธ.ค. 2564",
                         details: [
-                            "ให้บริการการสนับสนุนด้านเทคโนโลยี การจัดเก็บบริหารจัดการข้อมูล และแก้ปัญหาการใช้งานเบื้องต้นแก่ผู้ใช้ในพื้นที่",
-                            "จัดทำเอกสาร สรุปผลการดำเนินงาน ด้วย Microsoft Office (Word, Excel, PowerPoint) และดูแลอุปกรณ์ไอทีพื้นฐานที่ใช้ในโครงการ",
-                            "ตัดต่อ ออกแบบสื่อประชาสัมพันธ์และตกแต่งภาพกิจกรรมโครงการด้วย Adobe Photoshop เพื่อใช้ในการนำเสนอและจัดทำรายงาน"
+                            "สนับสนุนการจัดเก็บและบริหารจัดการข้อมูลภายในโครงการ",
+                            "ให้ความช่วยเหลือด้านเทคโนโลยีและแก้ไขปัญหาการใช้งานคอมพิวเตอร์เบื้องต้น",
+                            "จัดทำเอกสาร รายงาน และสรุปผลการดำเนินงานด้วย Microsoft Office",
+                            "ดูแลอุปกรณ์คอมพิวเตอร์และอุปกรณ์ที่ใช้ในโครงการ",
+                            "ออกแบบและตกแต่งสื่อประชาสัมพันธ์ด้วย Adobe Photoshop"
                         ]
                     }
                 ],
@@ -82,19 +84,23 @@ export class ResumeModel {
                     { name: "ภาษาอังกฤษ", level: "พื้นฐาน (Basic)" }
                 ],
                 professionalDevelopment: [
-                    "ศึกษาด้วยตนเองด้าน Cybersecurity ผ่านแพลตฟอร์ม CTF (DropCTF)",
-                    "ศึกษา Linux Administration และ Network Security เพื่อพัฒนาทักษะอย่างต่อเนื่อง",
-                    "ศึกษาพื้นฐานการทดสอบระบบ (QA Testing) และ Automation Testing"
+                    "ศึกษา Cybersecurity ผ่านแพลตฟอร์ม CTF",
+                    "ศึกษา Linux Administration",
+                    "ศึกษา Network Security เบื้องต้น",
+                    // "ศึกษาพื้นฐาน QA Testing และ Software Testing",
+                    "พัฒนาความรู้ด้าน IT Support และ Technical Support อย่างต่อเนื่อง",
+                    "ศึกษาพื้นฐาน Windows Server Administration",
+                    "ฝึกใช้งาน VirtualBox / VMware (Basic)"
                 ]
             },
             en: {
                 name: "Paranchai Yaemsod",
                 title: "IT Support | Technical Support | Helpdesk",
                 email: "py.paranchai@gmail.com",
-                phone: "095-148-6783",
+                phone: "+66 95-148-6783",
                 location: "Rayong, Thailand",
                 militaryStatus: "Completed military service (ROTC, Year 3)",
-                summary: "Bachelor of Science in Software Engineering, Burapha University. Foundation in programming and website development. Skilled in documentation, graphic design, and basic computer troubleshooting for end users. Currently pursuing further studies in operating systems, computer networking, and user support to fully prepare for a career in IT Support.",
+                summary: "Bachelor of Science in Software Engineering from Burapha University with a foundation in computer systems, web development, and basic technical troubleshooting. Experienced in documentation, data management, computer equipment support, and project coordination. Continuously developing knowledge in IT Support, computer hardware, networking, and operating systems while seeking opportunities to build a professional career in IT Support and Technical Support roles.",
                 coreCompetencies: [
                     "Documentation & Presentations (Microsoft Office)",
                     "Graphic Design & Image Editing (Adobe Photoshop)",
@@ -104,23 +110,24 @@ export class ResumeModel {
                     "Currently building skills in OS, Networking & IT Support"
                 ],
                 skills: [
-                    { category: "Hardware & Helpdesk (Basic / Self-Study)", items: "PC/Laptop Assembly, Basic Diagnostics, Peripheral Setup, User Support, Helpdesk Troubleshooting" },
-                    { category: "Operating Systems (Basic / Self-Study)", items: "Windows 10/11, Windows Server (Basic), Linux Command Line, System Maintenance" },
-                    { category: "Networking (Basic / Self-Study)", items: "TCP/IP, LAN/Wi-Fi Configuration, Router/Switch Setup, Network Troubleshooting, IP Config" },
-                    { category: "Software & Web Tech (Basic)", items: "HTML5, PHP, CSS3, JavaScript, SQL, Git/GitHub, VS Code" },
-                    { category: "Office & Graphic Tools", items: "Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Adobe Photoshop, Image Editing" },
-                    { category: "Tools & Utilities (Basic / Self-Study)", items: "Remote Desktop (AnyDesk/TeamViewer), Active Directory (Basic), CMD/PowerShell" }
+                    { category: "HARDWARE & HELPDESK (BASIC / SELF-STUDY)", items: "PC/Laptop Assembly, Basic Diagnostics, Peripheral Setup, User Support, Helpdesk Troubleshooting" },
+                    { category: "OPERATING SYSTEMS (BASIC / SELF-STUDY)", items: "Windows 10/11, Windows Installation, Windows Maintenance, Linux Command Line" },
+                    { category: "NETWORKING (BASIC / SELF-STUDY)", items: "TCP/IP, LAN/Wi-Fi Configuration, Network Troubleshooting, DNS, DHCP, IP Configuration" },
+                    { category: "IT SUPPORT TOOLS (BASIC / SELF-STUDY)", items: "Remote Desktop, AnyDesk, TeamViewer, Active Directory (Basic), Command Prompt, PowerShell (Basic)" },
+                    { category: "OFFICE PRODUCTIVITY", items: "Microsoft Word, Microsoft Excel, Microsoft PowerPoint" },
+                    { category: "ADDITIONAL TECHNICAL SKILLS", items: "Adobe Photoshop, HTML5, CSS3, PHP (Basic), JavaScript (Basic), SQL (Basic), Git/GitHub" }
                 ],
                 experience: [
                     {
-                        role: "IT Support & Digital Services (Freelance / Self-Employed)",
-                        company: "IT Skill Development & Personal Projects",
+                        role: "IT Support & Digital Services (Self-Learning)",
+                        company: "IT Skill Development",
                         period: "Sep 2024 – Present",
                         details: [
-                            "Studied principles of computer maintenance and troubleshooting, practiced on personal devices, and provided assistance to acquaintances",
-                            "Prepared and reviewed reports and data summaries using Microsoft Office (Word, Excel, PowerPoint)",
-                            "Practiced designing and editing graphic content for online media using Adobe Photoshop",
-                            "Continuously studied and developed new skills in Web Application and IT Support technologies"
+                            "Continuously developing IT Support, computer hardware, and troubleshooting skills through self-study and hands-on practice.",
+                            "Practicing Windows installation, configuration, and basic system maintenance.",
+                            "Learning fundamental networking concepts including TCP/IP, DNS, DHCP, and network troubleshooting.",
+                            "Studying Linux administration, cybersecurity fundamentals, and IT support tools.",
+                            "Assisting with basic computer-related issues and technical support for personal and community use."
                         ]
                     },
                     {
@@ -130,8 +137,7 @@ export class ResumeModel {
                         details: [
                             "Developed and maintained Web Applications under project-based contracts",
                             "Analyzed and resolved technical issues (Troubleshooting & Debugging) for both backend and frontend systems",
-                            "Performed System Testing and coordinated with the development team to improve application performance",
-                            "Applied Clean Code principles and system architecture patterns to support application scalability"
+                            "Performed System Testing and coordinated with the development team to improve application performance"
                         ]
                     },
                     {
@@ -139,20 +145,23 @@ export class ResumeModel {
                         company: "Self-Learning & Personal Skill Development",
                         period: "Jan 2022 – Dec 2023",
                         details: [
-                            "Practiced repair, Hardware/Software troubleshooting, and Windows OS installation on personal computers",
-                            "Prepared documents, data, and presentations using Microsoft Office (Word, Excel, PowerPoint)",
-                            "Practiced editing and designing basic graphic content using Adobe Photoshop",
-                            "Self-studied and updated knowledge in Web Development, basic Networking, and new IT Support tools"
+                            "Practiced hardware and software troubleshooting on personal computers.",
+                            "Installed and configured Windows operating systems.",
+                            "Developed proficiency in Microsoft Office applications for documentation and reporting.",
+                            "Practiced basic graphic design and image editing using Adobe Photoshop.",
+                            "Studied web development concepts, networking fundamentals, and IT support tools through self-learning."
                         ]
                     },
                     {
-                        role: "Project Staff (IT Support)",
+                        role: "Project Staff",
                         company: "One Tambon One University (U2T) Project — Ministry of Higher Education, Science, Research and Innovation (MHESI)",
                         period: "Mar 2021 – Dec 2021",
                         details: [
-                            "Provided technology support, data management, and basic user troubleshooting for local communities",
-                            "Prepared documents and performance reports using Microsoft Office (Word, Excel, PowerPoint) and maintained basic IT equipment",
-                            "Edited and designed promotional media and event photos using Adobe Photoshop for presentations and reports"
+                            "Supported data collection and information management activities within the project.",
+                            "Provided basic technology and computer usage assistance.",
+                            "Prepared reports, documentation, and presentations using Microsoft Office.",
+                            "Assisted in maintaining basic IT equipment used in project activities.",
+                            "Designed and edited promotional materials using Adobe Photoshop."
                         ]
                     }
                 ],
@@ -167,9 +176,13 @@ export class ResumeModel {
                     { name: "English", level: "Basic (Technical reading)" }
                 ],
                 professionalDevelopment: [
-                    "Self-studying Cybersecurity through CTF platforms (DropCTF)",
-                    "Studying Linux Administration and Network Security for continuous skill development",
-                    "Studying QA Testing fundamentals and Automation Testing"
+                    "Cybersecurity Fundamentals (CTF Learning Platforms)",
+                    "Linux Administration Fundamentals",
+                    "Network Security Fundamentals",
+                    // "Software Testing & QA Fundamentals",
+                    "IT Support and Helpdesk Self-Learning",
+                    "Windows Server Fundamentals",
+                    "VirtualBox / VMware (Basic)"
                 ]
             }
         };

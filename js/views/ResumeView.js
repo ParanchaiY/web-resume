@@ -21,12 +21,17 @@ export class ResumeView {
       })
       .join("");
 
-    const competenciesHTML = data.coreCompetencies
-      .map(
-        (c) =>
-          `<li class="competency-item"><span class="bullet">&#9656;</span> ${c}</li>`,
-      )
-      .join("");
+    // const competenciesHTML = data.coreCompetencies
+    //   .map(
+    //     (c) =>
+    //       `<li class="competency-item"><span class="bullet">&#9656;</span> ${c}</li>`,
+    //   )
+    //   .join("");
+
+    // <section class="main-section">
+    //    <h2 class="main-h2">${labels.competencies}</h2>
+    //      <ul class="competencies-list">${competenciesHTML}</ul>
+    // </section>
 
     const expHTML = data.experience
       .map(
@@ -113,11 +118,6 @@ export class ResumeView {
                     <section class="main-section">
                         <h2 class="main-h2">${labels.summary}</h2>
                         <p class="summary-text">${data.summary}</p>
-                    </section>
-
-                    <section class="main-section">
-                        <h2 class="main-h2">${labels.competencies}</h2>
-                        <ul class="competencies-list">${competenciesHTML}</ul>
                     </section>
 
                     <section class="main-section">
