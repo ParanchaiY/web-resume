@@ -95,7 +95,7 @@ export class ResumeModel {
                 ]
             },
             en: {
-                name: "Paranchai Yaemsod",
+                name: "Paranchai Yiaemsaard",
                 title: "IT Support | Technical Support | Helpdesk",
                 email: "py.paranchai@gmail.com",
                 phone: "+66 95-148-6783",
