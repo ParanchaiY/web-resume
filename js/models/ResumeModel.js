@@ -89,7 +89,7 @@ export class ResumeModel {
             },
             en: {
                 name: "Paranchai Yaemsod",
-                title: "IT Support Specialist",
+                title: "IT Support | Technical Support | Helpdesk",
                 email: "py.paranchai@gmail.com",
                 phone: "095-148-6783",
                 location: "Rayong, Thailand",
