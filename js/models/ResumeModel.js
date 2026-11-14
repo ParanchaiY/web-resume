@@ -55,6 +55,7 @@ export class ResumeModel {
                         period: "ม.ค. 2565 – ธ.ค. 2566",
                         details: [
                             "ฝึกฝนการซ่อม แก้ไขปัญหา Hardware/Software และติดตั้งระบบปฏิบัติการ Windows บนคอมพิวเตอร์ส่วนบุคคล",
+                            "ติดตั้งและกำหนดค่าระบบปฏิบัติการ Windows",
                             "จัดการงานเอกสาร ข้อมูล และสื่อนำเสนอด้วย Microsoft Office (Word, Excel, PowerPoint)",
                             "ฝึกตัดต่อ ตกแต่งภาพ และออกแบบสื่อกราฟิกพื้นฐานด้วย Adobe Photoshop",
                             "ศึกษาค้นคว้าและพัฒนาความรู้ด้าน Web Development, Networking พื้นฐาน และเครื่องมือ IT Support ด้วยตนเอง"
